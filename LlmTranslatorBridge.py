@@ -33,7 +33,7 @@ def chat_with_ai():
         # 3. แปล อังกฤษ -> ไทย ด้วย deep-translator
         final_reply = GoogleTranslator(source='en', target='th').translate(english_reply)
         
-        print(f"\nAI (English): {english_reply}")
+        # print(f"\nAI (English): {english_reply}")
         print(f"AI (ไทย): {final_reply}\n")
 
 if __name__ == "__main__":
