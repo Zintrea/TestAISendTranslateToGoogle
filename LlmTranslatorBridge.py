@@ -34,7 +34,7 @@ def chat_with_ai():
         final_reply = GoogleTranslator(source='en', target='th').translate(english_reply)
         
         # print(f"\nAI (English): {english_reply}")
-        print(f"AI (ไทย): {final_reply}\n")
+        print(f"AI : {final_reply}\n")
 
 if __name__ == "__main__":
     chat_with_ai()
